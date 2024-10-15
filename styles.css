@@ -258,47 +258,48 @@ nav a:hover {
 }
 @media (max-width: 768px) {
   .content h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem; /* Reducir un poco más */
   }
 
   .content h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .content p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     max-width: 100%;
   }
 
   .btn {
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
   }
 
   .swiper-slide .content {
-    gap: 0.8rem;
-    padding: 0.5rem;
+    gap: 0.5rem;
+    padding: 0.2rem;
   }
 }
 
 @media (max-width: 480px) {
   .content h1 {
-    font-size: 2rem;
+    font-size: 1.1rem; /* Aún más pequeño en pantallas muy pequeñas */
   }
 
   .content h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .content p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .btn {
-    padding: 0.7rem 1rem;
-    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 }
+
 .content {
   display: flex;
   flex-direction: column;
