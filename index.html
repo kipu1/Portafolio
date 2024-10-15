@@ -17,17 +17,17 @@
   <body>
     <header>
       <h1 class="logo">KIPU</h1>
-      <nav>
+      <nav class="nav-links">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#resume">Resume</a></li>
-
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     </header>
 
     <section id="home" class="section home swiper">
@@ -359,13 +359,36 @@
       AOS.init();
       const swiper = new Swiper(".swiper", {
         loop: true,
-        pagination: { el: ".swiper-pagination", clickable: true },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-        autoplay: { delay: 3000, disableOnInteraction: false },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        spaceBetween: 10, // Espacio entre diapositivas
+        slidesPerView: 1, // Mostrar una diapositiva por vez en móviles
+        breakpoints: {
+          768: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 1,
+          },
+        },
       });
+    </script>
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        const isVisible = navLinks.style.display === "block";
+        navLinks.style.display = isVisible ? "none" : "block";
+      }
     </script>
   </body>
 </html>
