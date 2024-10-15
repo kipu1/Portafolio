@@ -258,50 +258,50 @@ nav a:hover {
 }
 @media (max-width: 768px) {
   .content h1 {
-    font-size: 1.8rem; /* Reducido para pantallas medianas */
+    font-size: 1.6rem; /* Reducido para pantallas medianas */
   }
 
   .content h2 {
-    font-size: 1.3rem; /* Ajuste del subtítulo */
+    font-size: 1.2rem; /* Tamaño reducido del subtítulo */
   }
 
   .content p {
-    font-size: 0.9rem; /* Tamaño de texto más pequeño */
-    max-width: 90%; /* Mejor espacio alrededor */
-    margin: 0 auto; /* Centrar */
+    font-size: 0.85rem; /* Texto más pequeño */
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem; /* Botón más pequeño */
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
   }
 
   .swiper-slide .content {
-    gap: 0.6rem;
+    gap: 0.4rem;
     padding: 0.2rem;
   }
 }
 
 @media (max-width: 480px) {
   .content h1 {
-    font-size: 1.5rem; /* Tamaño reducido aún más para pantallas pequeñas */
+    font-size: 1.3rem; /* Más pequeño para pantallas pequeñas */
   }
 
   .content h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .content p {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 
   .btn {
-    padding: 0.5rem 0.8rem;
+    padding: 0.3rem 0.6rem;
     font-size: 0.7rem;
   }
 
   .swiper-slide .content {
-    gap: 0.4rem;
+    gap: 0.3rem;
     padding: 0.1rem;
   }
 }
