@@ -262,8 +262,16 @@ nav a:hover {
 }
 
 .btn {
-  background-color: #f4b41a;
-  color: #000;
+  background: linear-gradient(
+    90deg,
+    #ffb3ba,
+    #ffdfba,
+    #ffffba,
+    #baffc9,
+    #bae1ff
+  );
+  background-size: 400% 400%;
+  animation: rgb-text 5s infinite;
   padding: 1rem 2rem;
   border-radius: 5px;
   text-decoration: none;
@@ -326,7 +334,7 @@ footer {
 .resume {
   background-color: #0d0d0d;
   padding: 3rem 1rem; /* Menos padding para compactar la sección */
-  color: rgb(230, 181, 20);
+  color: rgb(238, 201, 79);
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -373,7 +381,11 @@ footer {
 
 .resume-date {
   font-size: 1.2rem;
-  color: #f4b41a;
+  background: linear-gradient(90deg, red, yellow, green, cyan, blue, violet);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rgb-text 5s infinite;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -612,8 +624,16 @@ h2 {
 
 .project-link {
   display: inline-block;
-  background-color: #f4b41a;
-  color: black;
+  background: linear-gradient(
+    90deg,
+    #ffb3ba,
+    #ffdfba,
+    #ffffba,
+    #baffc9,
+    #bae1ff
+  );
+  background-size: 400% 400%;
+  animation: rgb-text 5s infinite;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
