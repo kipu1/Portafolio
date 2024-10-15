@@ -82,14 +82,7 @@ header {
 .logo {
   font-size: 2rem;
   font-weight: bold;
-  background: linear-gradient(
-    90deg,
-    #ffb3ba,
-    #ffdfba,
-    #ffffba,
-    #baffc9,
-    #bae1ff
-  );
+  background: linear-gradient(90deg, red, yellow, green, cyan, blue, violet);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
