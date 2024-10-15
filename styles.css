@@ -225,18 +225,36 @@ nav a:hover {
 
   height: 90vh; /* Ajusta el ancho máximo para evitar desbordamientos */
 }
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 
+  .content h2 {
+    font-size: 1.2rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .content .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
 .content h1 {
   font-size: 3rem;
-  color: #ffffff;
-  margin-bottom: 0.5rem;
-}
-.content h2 {
-  font-size: 2rem;
-  color: #d4d4d4;
-  margin-bottom: 1rem;
+  line-height: 3rem;
+  text-align: center;
 }
 
+.content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .content p {
   font-size: 1.2rem;
   color: #e0e0e0;
@@ -264,17 +282,6 @@ nav a:hover {
   justify-content: center;
   gap: 1rem;
   text-align: center;
-}
-
-.content h1 {
-  font-size: 4rem;
-  margin-bottom: 0.5rem;
-}
-
-.content h2 {
-  font-size: 2.5rem;
-  color: #f4b41a;
-  margin-bottom: 1rem;
 }
 
 footer {
